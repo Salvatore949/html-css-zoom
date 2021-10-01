@@ -14,7 +14,8 @@
  header{
      display: flex;
      justify-content:flex-end;
-     padding: 10px;
+     padding: 20px;
+     height: 60px;
  }  
 
  button{
@@ -30,36 +31,95 @@
      padding:2px;
  }
 
+ #left_arrow{
+     width: 5%;
+     border:1px solid red;
+ }
+
  /*main images*/
 
+ main{
+     display: flex;
+ }
+
  main img{
-     width:18%;
-     margin:5px;
+     width:17%;
+     margin:4px;
  }
  
-  #images{
-   padding:2px;
-   display: flex;
-   flex-wrap:wrap;
-   justify-content:center;
+#images{
+    width: 90%;
+    padding: 2px 0px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    border: 1px solid red;
+}
+
+#right_arrow{
+    width: 5%;
+    border: 1px solid red;
 }
 
 #last{
     color:white;
     background-color:#232427;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*main below*/
 
-#last div:first-child{
+ /*left*/
+
+#last_div{
+    list-style-type: none;
+}
+
+#last_div ul{
     display: flex;
     flex-direction: row;
 }
 
-#last-1{
+#last_div li{
+    list-style-type: none;
+    padding: 15px 5px;
+}
+
+#last_div i{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+ /*center*/
+
+ #last_1 ul{
     display: flex;
     flex-direction: row;
 }
+
+#last_1 li{
+    list-style-type: none;
+    padding: 15px 10px;
+}
+
+#last_1 i{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+ /*right*/
+
+#right_option{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+    padding:20px;
+    background-color:#4a4b4d;
+    color: red;
+}
+
 
 
